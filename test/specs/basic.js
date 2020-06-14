@@ -66,6 +66,16 @@ describe('Single Counter', function () {
         expect(defaultCounter.inputFieldRight.getValue()).toEqual('3');
     });
 
+    it( '1.15 Verify that a click on red circle button with x returns the field to its initial state Change Step Options', function () {
+        defaultCounter.btnXLeft.click();
+        expect(defaultCounter.btnChangeStepOptionsLeft.getText()).toEqual("CHANGE STEP OPTIONS?");
+    });
+
+    it( '1.16 Verify that a click on red circle button with x returns the field to its initial state Change Step Options', function () {
+        defaultCounter.btnXRight.click();
+        expect(defaultCounter.btnChangeStepOptionsRight.getText()).toEqual("CHANGE STEP OPTIONS?");
+    });
+
 
     it('1.17 Verify that when both limit fields take their default values,sub/add buttons get created', function () {
         let stepValues = defaultCounter.btnAddSubButtons.map(el => el.getAttribute('step'));
@@ -97,7 +107,9 @@ describe('Single Counter', function () {
     });
 
     it('1.20 Enter 2 into LF1.  Enter 5 into LF2. Expected result: 4 add and 4 sub buttons get generated', function () {
+        defaultCounter.btnChangeStepOptionsLeft.click();
         defaultCounter.inputFieldLeft.setValue('2');
+        defaultCounter.btnChangeStepOptionsRight.click();
         defaultCounter.inputFieldRight.setValue('5');
         let stepValues = defaultCounter.btnAddSubButtons.map(el => el.getAttribute('step'));
         expect(stepValues.join('/')).toEqual('-2/-3/-4/-5/2/3/4/5');
