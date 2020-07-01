@@ -4,7 +4,7 @@ describe('Single Counter', function () {
     browser.url('https://likejean.github.io/homework-5/');
 
     //This a testing of branching
-
+    //this a second comment
     it('1.1 Verify that a header exists on top of the page and its named as Counters', function () {
         browser.url('https://likejean.github.io/homework-5/');
         expect(defaultCounter.textCounters).toEqual('Counters');
