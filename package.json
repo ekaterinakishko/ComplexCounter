@@ -1,7 +1,6 @@
 {
   "name": "untitled5",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx wdio wdio.conf.js"
@@ -17,5 +16,17 @@
     "@wdio/sync": "^6.1.14",
     "chromedriver": "^83.0.0",
     "wdio-chromedriver-service": "^6.0.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kseniia855/ComplexCounter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kseniia855/ComplexCounter/issues"
+  },
+  "homepage": "https://github.com/Kseniia855/ComplexCounter#readme",
+  "description": ""
 }
