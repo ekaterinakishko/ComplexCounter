@@ -1,0 +1,23 @@
+{
+  "general":{
+    "headerName": "Counters",
+    "newCounterTitle": "Counter Name",
+    "newCounterInitialCount": "50",
+    "enterCounterTitle": "Enter Counter Title:",
+    "initialCountIF": "Enter Initial Count:",
+    "totalResult" : "0",
+    "countValueInUI": "0",
+    "nameDefaultCounter": "Default Counter",
+    "labelEditCounterTitle": "Edit Counter Title:",
+    "editCounterTitle" : "New counter title",
+    "defaultTextLimitField1": "CHANGE STEP OPTIONS?",
+    "defaultTextLimitField2": "CHANGE STEP OPTIONS?",
+    "defaultValueLimitField1": "1",
+    "defaultValueLimitField2": "3",
+    "clickOnRedLeftCircleButton" : "CHANGE STEP OPTIONS?",
+    "clickOnRedRigthCircleButton": "CHANGE STEP OPTIONS?",
+    "bothLimitFields": "-1/-2/-3/1/2/3",
+    "enter2InLF1Enter5inLF2": "-2/-3/-4/-5/2/3/4/5",
+    "resetButton": "0"
+  }
+}
