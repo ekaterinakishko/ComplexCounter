@@ -237,22 +237,3 @@ describe('Multiple counters', function () {
     });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
