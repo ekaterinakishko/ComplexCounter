@@ -72,7 +72,6 @@ class counter {
     get inputEnterInitialCount(){
         return $("//input[@data-testid = 'counter-value-input']");
     }
-
 }
 
 module.exports = counter;
